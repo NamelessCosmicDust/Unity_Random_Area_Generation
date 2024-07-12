@@ -1,5 +1,5 @@
 # Unity_Random_Area_Generation
-A random play area generator for Unity Engine.
+A basic set for random play area generation in Unity Engine.
 
 The idea is that an area object is responsible for spawning a new area object. Basically, spanwing the first area will start a chain reaction of area spawning.
 Each new area will be spawned in a random direction, but a fixed distance away from the previous area object.
