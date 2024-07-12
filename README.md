@@ -1,9 +1,9 @@
 # Unity_Random_Area_Generation
 A basic set for random play area generation in Unity Engine.
 
-The idea is that an area object is responsible for spawning a new area object. Basically, spanwing the first area will start a chain reaction of area spawning.
+The idea is that making an area object is responsible for spawning a new area object. Basically, spawning the first area will start a chain reaction of area spawning.
 Each new area will be spawned in a random direction, but a fixed distance away from the previous area object.
-There is also an additional clearance criteria to prevent an area spawn on top of another area.
+There are also additional clearance criteria to prevent an area spawn on top of another area.
 
 ### How to use:
 1. Attach ```AreaManager``` class script to the AreaManager prefab, then spawn the AreaManager prefab.
