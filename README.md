@@ -13,6 +13,7 @@ There are also additional clearance criteria to prevent an area spawn on top of 
 4. ```WallDestroyer``` class is set to destroy all objects with tag "PlayAreaWall". Make sure only the Wall prefab has this tag in Unity.
 
 Random result examples
+
 ![image](https://github.com/user-attachments/assets/52500966-9dc8-4e6e-b8d9-3c714cc8ff73)
 ![image](https://github.com/user-attachments/assets/3e9a801a-871d-4bd3-b9a9-b77d651c02b1)
 ![image](https://github.com/user-attachments/assets/adc45b85-9104-4b07-ad5f-dcb547b193ed)
