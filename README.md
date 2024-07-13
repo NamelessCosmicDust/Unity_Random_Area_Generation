@@ -11,3 +11,6 @@ There are also additional clearance criteria to prevent an area spawn on top of 
 2. ```AreaObjectData``` class is used to store info for each spawned area object, ```AreaGenerationHelpers``` class provides static methods for common actions.
 3. ```AreaManager``` will use WallDestroyer prefab (has ```WallDestroyer``` class), spawn it for each area object spawned, by using the data from an instance of ```AreaObjectData``` class, to destroy walls between areas.
 4. ```WallDestroyer``` class is set to destroy all objects with tag "PlayAreaWall". Make sure only the Wall prefab has this tag in Unity.
+
+Random result example
+![image](https://github.com/user-attachments/assets/774c1014-dba6-4e4f-9645-c1012fa932e6)
